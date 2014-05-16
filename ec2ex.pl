@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 #
+# Looks for EC2 instance ids and public hostnames in standard input,
+# replaces them with random values
 
 @chars = (0 .. 9, "a" .. "g");
 
